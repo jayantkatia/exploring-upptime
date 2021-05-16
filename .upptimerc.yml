@@ -8,19 +8,19 @@ sites:
   - name: Azure
     url: https://azure.microsoft.com
 assignees:
-  - jayantkatia
+  - $OWNER
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
 #   cname: demo.upptime.js.org
-  baseUrl: /site-monitor
+  baseUrl: /$REPO
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Exploring Upptime
-  introTitle: "Status page for websites/services used in projects "
-  introMessage: "Status page for websites/services used in projects by "
+  name: Site Monitor
+  introTitle: "Status page for websites/services"
+  introMessage: Status page for websites/services used in projects by [Jayant](https:github.com/$OWNER). 
   navbar:
-    - title: Status
-      href: /$REPO
+    - title: About me
+      href: https:github.com/$OWNER
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
