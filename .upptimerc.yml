@@ -20,7 +20,7 @@ status-website:
   introMessage: "Status page for websites/services used in projects by "
   navbar:
     - title: Status
-      href: /$REPO
+      href: /site-monitor
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
