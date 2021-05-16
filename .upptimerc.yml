@@ -6,7 +6,7 @@ sites:
   - name: UpMob-API
     url: $UPMOB_API
   - name: Azure
-    url: https://azure.microsoft.com/en-gb/
+    url: https://azure.microsoft.com
 assignees:
   - jayantkatia
 status-website:
@@ -16,11 +16,11 @@ status-website:
   baseUrl: /site-monitor
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Exploring Upptime
-  introTitle: "Status page for websites/services used in projects"
+  introTitle: "Status page for websites/services used in projects "
   introMessage: "Status page for websites/services used in projects by "
   navbar:
     - title: Status
-      href: /site-monitor
+      href: /$REPO
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
