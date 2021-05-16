@@ -13,7 +13,8 @@ sites:
     url: https://thissitedoesnotexist.koj.co
   - name: UpMob
     url: http://upmob.eastus.cloudapp.azure.com:8081/devices/top100
-
+assignees:
+  - jayantkatia
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
