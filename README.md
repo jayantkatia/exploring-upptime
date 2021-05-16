@@ -1,6 +1,6 @@
-# [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟩 All systems operational**
+# [📈 Live Status](https://jayantkatia.github.io/site-monitor): <!--live status--> **🟩 All systems operational**
 
-This repository contains the open-source uptime monitor and status page for [Upptime](https://upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page for websites and services used in projects by (jayantkatia)[https://github.com], powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/jayantkatia/exploring-upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/jayantkatia/exploring-upptime/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/jayantkatia/exploring-upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/jayantkatia/exploring-upptime/actions?query=workflow%3A%22Response+Time+CI%22)
