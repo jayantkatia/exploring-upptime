@@ -17,10 +17,10 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Site Monitor
   introTitle: "Status page for websites/services"
-  introMessage: Status page for websites/services used in projects by [Jayant](https:github.com/$OWNER). 
+  introMessage: Status page for websites/services used in projects by [Jayant](https://github.com/$OWNER). 
   navbar:
     - title: About me
-      href: https:github.com/$OWNER
+      href: https://github.com/$OWNER
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
