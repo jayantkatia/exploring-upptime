@@ -1,0 +1,31 @@
+name: Response Time CI (Scripts)
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  repository_dispatch:
+    types: [response_time]
+  workflow_dispatch:
+jobs:
+  release:
+    name: Check status
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.3
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GH_PAT }}
+      
+      - name: give permissions to installation script  
+        run: chmod +x ./scripts/installation.sh
+
+      - name: Run script
+        run: ./scripts/installation.sh
+      
+      - name: Update response time
+        run:  npx github:jayantkatia/uptime-monitor#scripts-enabled scripts-enabled response-time
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          MY_WS_U: ${{ secrets.MY_WS_U }}
+          MY_WS_P: ${{ secrets.MY_WS_P }}
+          SECRETS_CONTEXT: ${{ toJson(secrets) }}

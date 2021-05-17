@@ -1,6 +1,11 @@
 #!/usr/bin/expect -f
 set timeout 30
 spawn windscribe login
+
+expect {
+    "Already Logged in" {exit 0}
+}
+
 expect "Windscribe Username: "
 send "$env(MY_WS_U)\n"
 expect "Windscribe Password: "

@@ -1,0 +1,25 @@
+name: Update Template CI (Scripts)
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  repository_dispatch:
+    types: [update_templates]
+  workflow_dispatch:
+jobs:
+  release:
+    name: Build
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.3
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Update template
+        run: npx github:jayantkatia/uptime-monitor#scripts-enabled update-template
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          
+
+
