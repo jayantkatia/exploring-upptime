@@ -2,7 +2,7 @@
 
 # login
 {
-    ./vpn-login
+    ./scripts/vpn-login
 } || {
     exit 1
 }
