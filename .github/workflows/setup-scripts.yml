@@ -1,4 +1,4 @@
-name: Setup CI
+name: Setup CI (Scripts)
 on:
   push:
     paths:
@@ -17,6 +17,12 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
 
+      # needed for response time
+      - name: give permissions to installation script  
+        run: chmod +x ./scripts/installation.sh
+      - name: Run script
+        run: ./scripts/installation.sh
+
       - name: Update template
         run: npx github:jayantkatia/uptime-monitor#scripts-enabled update-template
         env:
@@ -26,6 +32,8 @@ jobs:
         run: npx github:jayantkatia/uptime-monitor#scripts-enabled response-time
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+          MY_WS_U: ${{ secrets.MY_WS_U }}
+          MY_WS_P: ${{ secrets.MY_WS_P }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
 
       - name: Update summary in README
