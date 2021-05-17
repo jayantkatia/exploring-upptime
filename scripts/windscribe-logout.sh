@@ -1,0 +1,2 @@
+windscribe disconnect
+windscribe logout
