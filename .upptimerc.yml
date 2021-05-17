@@ -7,6 +7,10 @@ sites:
     url: $UPMOB_API
   - name: Azure
     url: https://azure.microsoft.com
+locations:
+  - NL
+  - HK
+
 assignees:
   - $OWNER
 status-website:
@@ -23,6 +27,9 @@ status-website:
       href: https://github.com/$OWNER
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
