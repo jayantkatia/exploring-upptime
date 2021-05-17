@@ -25,7 +25,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
       - name: Check endpoint status
-        runs:  npx github:jayantkatia/uptime-monitor#scripts-enabled scripts-enabled
+        run:  npx github:jayantkatia/uptime-monitor#scripts-enabled scripts-enabled
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           MY_WS_U: ${{ secrets.MY_WS_U }}
