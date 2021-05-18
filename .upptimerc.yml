@@ -3,18 +3,18 @@ owner: jayantkatia # Your GitHub organization or username, where this repository
 repo: site-monitor # The name of this repository
 user-agent: jayantkatia
 sites:
+  - name: Google
+    url: https://google.com
+  - name: Azure
+    url: https://azure.microsoft.com
   - name: UpMob-API
     url: $UPMOB_API
     tags:
       - default
       - NL
-      - HK
-      - GB
       - CA
     startScript: ./scripts/vpn-connect.sh
     endScript: ./scripts/vpn-logout.sh
-  - name: Google
-    url: https://google.com
 
 assignees:
   - $OWNER
