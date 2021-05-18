@@ -6,6 +6,7 @@ sites:
   - name: UpMob-API
     url: $UPMOB_API
     tags:
+      - default
       - NL
       - HK
       - GB
