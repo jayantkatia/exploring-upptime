@@ -20,16 +20,20 @@ jobs:
       # needed for response time
       - name: give permissions to installation script  
         run: chmod +x ./scripts/installation.sh
-      - name: Run script
+      - name: Run installation script
         run: ./scripts/installation.sh
 
       - name: Update template
-        run: npx -p github:jayantkatia/uptime-monitor#scripts-enabled update-template
+        uses: jayantkatia/uptime-monitor@scripts-enabled
+        with:
+          command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
 
       - name: Update response time
-        run: npx --package=github:jayantkatia/uptime-monitor#scripts-enabled response-time
+        uses: jayantkatia/uptime-monitor@scripts-enabled
+        with:
+          command: "response-time"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           MY_WS_U: ${{ secrets.MY_WS_U }}
@@ -37,7 +41,9 @@ jobs:
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
 
       - name: Update summary in README
-        run: npx -p github:jayantkatia/uptime-monitor#scripts-enabled --command=readme
+        uses: jayantkatia/uptime-monitor@scripts-enabled
+        with:
+          command: "readme"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
 
