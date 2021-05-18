@@ -23,7 +23,9 @@ jobs:
         run: ./scripts/installation.sh
       
       - name: Update response time
-        run:  npx github:jayantkatia/uptime-monitor#scripts-enabled response-time
+        uses: jayantkatia/uptime-monitor@scripts-enabled
+        with:
+          command: response-time
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           MY_WS_U: ${{ secrets.MY_WS_U }}
