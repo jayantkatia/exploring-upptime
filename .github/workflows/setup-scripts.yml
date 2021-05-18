@@ -24,12 +24,12 @@ jobs:
         run: ./scripts/installation.sh
 
       - name: Update template
-        run: npx github:jayantkatia/uptime-monitor#scripts-enabled update-template
+        run: npx -p github:jayantkatia/uptime-monitor#scripts-enabled update-template
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
 
       - name: Update response time
-        run: npx github:jayantkatia/uptime-monitor#scripts-enabled response-time
+        run: npx --package=github:jayantkatia/uptime-monitor#scripts-enabled response-time
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           MY_WS_U: ${{ secrets.MY_WS_U }}
@@ -37,7 +37,7 @@ jobs:
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
 
       - name: Update summary in README
-        run: npx github:jayantkatia/uptime-monitor#scripts-enabled readme
+        run: npx -p github:jayantkatia/uptime-monitor#scripts-enabled --command=readme
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
 
