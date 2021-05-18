@@ -16,7 +16,9 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
       - name: Update summary in README
-        run: npx github:jayantkatia/uptime-monitor#scripts-enabled readme
+        uses: jayantkatia/uptime-monitor@scripts-enabled
+        with:
+          command: readme
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           
