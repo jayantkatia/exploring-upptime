@@ -6,4 +6,6 @@ if [[ "$3" == "CA" ]]
 then
     windscribe disconnect
     windscribe logout
+else
+    windscribe disconnect
 fi
