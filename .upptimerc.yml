@@ -13,8 +13,8 @@ sites:
       - CA
     startScript: ./scripts/vpn-connect.sh
     endScript: ./scripts/vpn-logout.sh
-  - name: Azure
-    url: https://azure.microsoft.com
+  - name: Google
+    url: https://google.com
 
 assignees:
   - $OWNER
