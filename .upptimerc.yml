@@ -3,10 +3,12 @@ owner: jayantkatia # Your GitHub organization or username, where this repository
 repo: status # The name of this repository
 user-agent: jayantkatia
 sites:
-  - name: Google
-    url: https://google.com
-  - name: Azure
-    url: https://azure.microsoft.com
+  - name: observation.org
+    url: https://observation.org
+#   - name: Google
+#     url: https://google.com
+#   - name: Azure
+#     url: https://azure.microsoft.com
   - name: UpMob-API
     url: $UPMOB_API
     tags:
