@@ -5,6 +5,8 @@ user-agent: jayantkatia
 sites:
   - name: observation.org
     url: https://observation.org
+    headers:
+      - "User-Agent: Jayants uptime"
 #   - name: Google
 #     url: https://google.com
 #   - name: Azure
