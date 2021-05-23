@@ -30,7 +30,7 @@ status-website:
   logoUrl: https://jayantkatia.github.io/ic_launcher.png #https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Site Monitor
   introTitle: "Status page for websites/services"
-  introMessage: Status page for websites/services used in projects by [Jayant](https://github.com/$OWNER). 
+#   introMessage: Status page for websites/services used in projects by [Jayant](https://github.com/$OWNER). 
   navbar:
     - title: About me
       href: https://github.com/$OWNER
