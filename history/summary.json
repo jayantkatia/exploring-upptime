@@ -42,10 +42,10 @@
     "url": "$UPMOB_API",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "up-mob-api-nl",
-    "status": "up",
+    "status": "down",
     "uptime": "98.73%",
-    "uptimeDay": "94.30%",
-    "uptimeWeek": "97.76%",
+    "uptimeDay": "94.21%",
+    "uptimeWeek": "97.74%",
     "uptimeMonth": "98.73%",
     "uptimeYear": "98.73%",
     "time": 1447,
@@ -54,7 +54,7 @@
     "timeMonth": 1447,
     "timeYear": 1447,
     "dailyMinutesDown": {
-      "2021-06-05": 82,
+      "2021-06-05": 83,
       "2021-06-01": 144,
       "2021-05-20": 18
     }
