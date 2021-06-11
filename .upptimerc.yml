@@ -7,10 +7,6 @@ sites:
     url: https://observation.org
     headers:
       - "User-Agent: Jayants uptime"
-#   - name: Google
-#     url: https://google.com
-#   - name: Azure
-#     url: https://azure.microsoft.com
   - name: UpMob-API
     url: $UPMOB_API
     tags:
