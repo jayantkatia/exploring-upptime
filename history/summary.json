@@ -42,18 +42,19 @@
     "url": "$UPMOB_API",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "up-mob-api-nl",
-    "status": "up",
-    "uptime": "99.23%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.24%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.16%",
-    "uptimeYear": "99.23%",
+    "uptimeYear": "99.24%",
     "time": 1577,
     "timeDay": 1554,
     "timeWeek": 1814,
     "timeMonth": 1902,
     "timeYear": 1577,
     "dailyMinutesDown": {
+      "2021-06-27": 0,
       "2021-06-06": 50,
       "2021-06-05": 174,
       "2021-06-01": 144,
@@ -65,9 +66,9 @@
     "url": "$UPMOB_API",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "up-mob-api-ca",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -76,6 +77,8 @@
     "timeWeek": 380,
     "timeMonth": 641,
     "timeYear": 706,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-06-27": 0
+    }
   }
 ]
