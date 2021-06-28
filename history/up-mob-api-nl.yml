@@ -1,7 +1,7 @@
 url: $UPMOB_API
-status: up
-code: 200
-responseTime: 3337
-lastUpdated: 2021-06-27T23:10:24.152Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2021-06-28T07:52:50.026Z
 startTime: Sun May 23 2021 07:49:01 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
