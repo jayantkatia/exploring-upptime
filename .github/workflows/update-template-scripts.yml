@@ -17,7 +17,7 @@ jobs:
           token: ${{ secrets.GH_PAT }}
 
       - name: Update template
-        uses: jayantkatia/uptime-monitor@scripts-enabled
+        uses: jayantkatia/uptime-monitor@1.26.1
         with:
           command: update-template
         env:
