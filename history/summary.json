@@ -25,18 +25,18 @@
     "icon": "https://favicons.githubusercontent.com/thissitedoesnotexist.koj.co",
     "slug": "test-broken-site",
     "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
+    "uptime": "1.96%",
+    "uptimeDay": "1.96%",
+    "uptimeWeek": "1.96%",
+    "uptimeMonth": "1.96%",
+    "uptimeYear": "1.96%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2021-07-04": 10
+      "2021-07-04": 617
     }
   },
   {
@@ -65,14 +65,14 @@
     "status": "up",
     "uptime": "0.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "0.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 1925,
-    "timeDay": 3464,
-    "timeWeek": 3817,
-    "timeMonth": 2577,
-    "timeYear": 1925,
+    "time": 1947,
+    "timeDay": 3689,
+    "timeWeek": 3936,
+    "timeMonth": 2609,
+    "timeYear": 1947,
     "dailyMinutesDown": {
       "2021-06-27": 51,
       "2021-06-06": 50,
@@ -92,11 +92,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 673,
-    "timeDay": 388,
-    "timeWeek": 439,
-    "timeMonth": 623,
-    "timeYear": 673,
+    "time": 684,
+    "timeDay": 779,
+    "timeWeek": 551,
+    "timeMonth": 649,
+    "timeYear": 684,
     "dailyMinutesDown": {}
   }
 ]
