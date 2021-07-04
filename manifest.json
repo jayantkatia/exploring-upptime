@@ -4,7 +4,7 @@
   "name": "Upptime",
   "short_name": "Upptime",
   "display": "minimal-ui",
-  "start_url": "/",
+  "start_url": "/status",
   "icons": [
     {
       "src": "logo-192.png",
