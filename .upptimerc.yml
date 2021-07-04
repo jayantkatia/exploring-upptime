@@ -7,6 +7,8 @@ sites:
     url: https://observation.org
     headers:
       - "User-Agent: Jayants uptime"
+  - name: Test Broken Site
+    url: https://thissitedoesnotexist.koj.co
   - name: UpMob-API
     url: $UPMOB_API
     tags:
