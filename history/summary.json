@@ -5,11 +5,11 @@
     "icon": "https://favicons.githubusercontent.com/observation.org",
     "slug": "observation-org",
     "status": "up",
-    "uptime": "99.85%",
+    "uptime": "99.86%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.85%",
+    "uptimeYear": "99.86%",
     "time": 682,
     "timeDay": 558,
     "timeWeek": 635,
@@ -17,6 +17,26 @@
     "timeYear": 682,
     "dailyMinutesDown": {
       "2021-05-22": 89
+    }
+  },
+  {
+    "name": "Test Broken Site",
+    "url": "https://thissitedoesnotexist.koj.co",
+    "icon": "https://favicons.githubusercontent.com/thissitedoesnotexist.koj.co",
+    "slug": "test-broken-site",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2021-07-04": 10
     }
   },
   {
@@ -43,16 +63,16 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "up-mob-api-nl",
     "status": "up",
-    "uptime": "99.27%",
+    "uptime": "0.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.50%",
-    "uptimeMonth": "99.37%",
-    "uptimeYear": "99.27%",
-    "time": 1913,
-    "timeDay": 3746,
-    "timeWeek": 3859,
-    "timeMonth": 2564,
-    "timeYear": 1913,
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 1925,
+    "timeDay": 3464,
+    "timeWeek": 3817,
+    "timeMonth": 2577,
+    "timeYear": 1925,
     "dailyMinutesDown": {
       "2021-06-27": 51,
       "2021-06-06": 50,
@@ -72,11 +92,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 676,
-    "timeDay": 292,
-    "timeWeek": 434,
-    "timeMonth": 628,
-    "timeYear": 676,
+    "time": 673,
+    "timeDay": 388,
+    "timeWeek": 439,
+    "timeMonth": 623,
+    "timeYear": 673,
     "dailyMinutesDown": {}
   }
 ]
