@@ -35,7 +35,7 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-skipDescriptionUpdate: true
+#skipDescriptionUpdate: true
 skipTopicsUpdate: true
 
 workflowSchedule:
