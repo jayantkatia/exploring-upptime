@@ -5,6 +5,7 @@ user-agent: jayantkatia
 sites:
   - name: observation.org
     url: https://observation.org
+    check: tcp-ping
     headers:
       - "User-Agent: Jayants uptime"
   - name: Test Broken Site
