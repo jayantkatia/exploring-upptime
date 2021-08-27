@@ -9,6 +9,7 @@ sites:
       - "User-Agent: Jayants uptime"
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
+    check: tcp-ping
   - name: UpMob-API
     url: $UPMOB_API
     tags:
