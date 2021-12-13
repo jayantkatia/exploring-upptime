@@ -8,9 +8,9 @@ sites:
     check: tcp-ping
     headers:
       - "User-Agent: Jayants uptime"
-#   - name: Test Broken Site
-#     url: https://thissitedoesnotexist.koj.co
-#     check: tcp-ping
+  - name: Texas Instruments
+    url: https://www.ti.com
+    check: tcp-ping
   - name: UpMob-API
     url: $UPMOB_API
     tags:
