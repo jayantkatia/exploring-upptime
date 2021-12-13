@@ -27,6 +27,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
 #   cname: demo.upptime.js.org
   baseUrl: /status
+  themeUrl: https://raw.githubusercontent.com/jayantkatia/status/master/assets/test-theme.css  
   logoUrl: https://raw.githubusercontent.com/jayantkatia/status/master/assets/ic_launcher.png #https://jayantkatia.github.io/ic_launcher.png 
   name: Site Monitor
   introTitle: "Status page for websites/services"
