@@ -8,12 +8,9 @@ sites:
     check: tcp-ping
     headers:
       - "User-Agent: Jayants uptime"
-  - name: Texas Instruments
-    url: www.ti.com
-    check: tcp-ping
-  - name: UpMob-API
-    url: $UPMOB_API
-    tags:
+  - name: Google
+    url: www.google.com
+    tags: 
       - default
       - NL
       - CA
