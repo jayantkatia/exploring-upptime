@@ -3,11 +3,6 @@ owner: jayantkatia # Your GitHub organization or username, where this repository
 repo: status # The name of this repository
 user-agent: jayantkatia
 sites:
-  - name: observation.org
-    url: https://observation.org
-    check: tcp-ping
-    headers:
-      - "User-Agent: Jayants uptime"
   - name: Google
     url: www.google.com
     tags: 
