@@ -9,8 +9,8 @@ sites:
 #       - default
 #       - NL
 #       - CA
-    startScript: ./scripts/vpn-connect.sh
-    endScript: ./scripts/vpn-logout.sh
+#     startScript: ./scripts/vpn-connect.sh
+#     endScript: ./scripts/vpn-logout.sh
 
 assignees:
   - $OWNER
