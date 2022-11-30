@@ -5,10 +5,10 @@ user-agent: jayantkatia
 sites:
   - name: Google
     url: www.google.com
-    tags: 
-      - default
-      - NL
-      - CA
+#     tags: 
+#       - default
+#       - NL
+#       - CA
     startScript: ./scripts/vpn-connect.sh
     endScript: ./scripts/vpn-logout.sh
 
