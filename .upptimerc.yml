@@ -3,8 +3,8 @@ owner: jayantkatia # Your GitHub organization or username, where this repository
 repo: status # The name of this repository
 user-agent: jayantkatia
 sites:
-#   - name: Google
-#     url: www.google.com
+  - name: Google
+    url: www.google.com
 #     tags: 
 #       - default
 #       - NL
