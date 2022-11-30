@@ -33,12 +33,12 @@ status-website:
 skipTopicsUpdate: true
 
 workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 0 18 5 *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 18 5 *"
-  updateTemplate: "0 0 18 5 *"
-  updates: "0 3 * * *"
-  uptime: "0 0 18 5 *"
+  graphs: "0 0 1 1 *"
+  responseTime: "0 0 1 1 *"
+  staticSite: "0 0 1 1 *"
+  summary: "0 0 1 1 *"
+  updateTemplate: "0 0 1 1 *"
+  updates: "0 0 1 1 *"
+  uptime: "0 0 1 1 *"
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
