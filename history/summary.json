@@ -2,7 +2,7 @@
   {
     "name": "Google",
     "url": "www.google.com",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "icon": "https://favicons.githubusercontent.com/null",
     "slug": "google",
     "status": "up",
     "uptime": "100.00%",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 901,
-    "timeDay": 253,
-    "timeWeek": 253,
-    "timeMonth": 253,
-    "timeYear": 253,
+    "time": 262,
+    "timeDay": 62,
+    "timeWeek": 92,
+    "timeMonth": 109,
+    "timeYear": 121,
     "dailyMinutesDown": {}
   }
 ]
